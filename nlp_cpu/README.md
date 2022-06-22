@@ -16,9 +16,32 @@ base notebook: datasciense-notebook
 
 ### tensorflow
 
+### XGBoost
 
+### LightGBM
+
+### Keras
+
+###  drawdata
+この小さなPythonアプリを使用すると、jupyterノートブックにデータセットを描画できます。これは、機械学習アルゴリズムを教えるときに非常に役立ちます。
+https://github.com/koaning/drawdata
+
+### Autoviz
+AutoVizは、1行のコードで任意のデータセットの自動視覚化を実行します。任意のサイズの入力ファイル（CSV、txt、またはjson形式）を指定すると、マシンのメモリ制限の範囲内で設定max_rows_analyzedおよび設定を行うと、AutoVizがそれを視覚化します。max_cols_analyzed
+https://github.com/AutoViML/AutoViz
+
+### Mito
+Mitoは、JupyterLabノートブック内にあるスプレッドシートです。これにより、ExcelファイルのようにPandasデータフレームを編集でき、各編集に対応するPythonコードが生成されます。
+
+https://github.com/mito-ds/monorepo
+
+### networkx
 
 ## 自然言語処理ライブラリまとめ
+
+### nlplot
+https://github.com/takapy0210/nlplot
+### pyLDAvis
 
 ### NLTK
 「NLTK」（Natural Language Toolkit）は、英語の自然言語処理ライブラリです。Pythonで開発されています。
@@ -135,5 +158,10 @@ DeepPavlovはのために設計されています
 NLP、特に対話システムの分野での研究。
 
 link: https://github.com/deepmipt/DeepPavlov
+
+### clean-text
+Webやソーシャルメディアでユーザーが作成したコンテンツは、汚いことがよくあります。でスクレイピングされたデータを前処理clean-textして、正規化されたテキスト表現を作成します。
+
+link https://github.com/jfilter/clean-text
 
 ## Install
