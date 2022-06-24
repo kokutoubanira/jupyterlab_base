@@ -55,8 +55,6 @@ link: https://github.com/explosion/spaCy
 huggingface/transformers: https://github.com/huggingface/transformers
 AllenNLP: https://github.com/allenai/allennlp
 Fairseq: https://github.com/facebookresearch/fairseq
-Fast.ai: https://github.com/fastai/fastai
-torch: https://github.com/pytorch/text
 
 ### GiNZA
 「GiNZA」は、オープンソースな日本語の自然言語処理ライブラリです。最先端の機械学習技術を取り入れた自然言語処理ライブラリ「spaCy」をフレームワークとして利用しており、トークン化処理に形態素解析器「SudachiPy」が使われています。

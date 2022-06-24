@@ -1,2 +1,2 @@
-FROM jupyter/datascience-notebook:ubuntu-20.04
+FROM techlab-base-notebookv1.0
 
