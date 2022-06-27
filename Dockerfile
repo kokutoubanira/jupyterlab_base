@@ -1,4 +1,4 @@
-FROM jupyter/datascience-notebook:lab-3.3.4
+FROM jupyter/datascience-notebook:lab-3.2.9
 
 USER root
 RUN apt-get update
