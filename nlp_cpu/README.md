@@ -54,7 +54,7 @@ link: https://github.com/explosion/spaCy
 
 huggingface/transformers: https://github.com/huggingface/transformers
 AllenNLP: https://github.com/allenai/allennlp
-Fairseq: https://github.com/facebookresearch/fairseq
+
 
 ### GiNZA
 「GiNZA」は、オープンソースな日本語の自然言語処理ライブラリです。最先端の機械学習技術を取り入れた自然言語処理ライブラリ「spaCy」をフレームワークとして利用しており、トークン化処理に形態素解析器「SudachiPy」が使われています。
@@ -129,6 +129,8 @@ DeepPavlovはのために設計されています
 NLP、特に対話システムの分野での研究。
 
 link: https://github.com/deepmipt/DeepPavlov
+spacyとの依存関係で無理
+
 
 ### clean-text
 Webやソーシャルメディアでユーザーが作成したコンテンツは、汚いことがよくあります。でスクレイピングされたデータを前処理clean-textして、正規化されたテキスト表現を作成します。
