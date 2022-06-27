@@ -8,7 +8,7 @@ ja_ginza
 spacy==3.1.1
 pydantic==1.7.4
 huggingface==0.0.1
-transformers < 4.19
+
 tqdm
 
 

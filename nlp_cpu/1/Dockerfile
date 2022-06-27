@@ -1,4 +1,4 @@
-FROM techlab-base-notebookv1.0
+FROM techlab-base-notebook:v1.0
 
 USER root
 RUN apt-get update
