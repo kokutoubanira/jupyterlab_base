@@ -120,17 +120,6 @@ Gensimは、トピックモデリング、ドキュメントインデックス�
 
 link: https://github.com/RaRe-Technologies/gensim
 
-### DeepPavlov
-DeepPavlovは、TensorFlow、 Keras、PyTorch に基づいて構築されたオープンソースの会話型AIライブラリです。
-
-DeepPavlovはのために設計されています
-
-本番環境に対応したチャットボットと複雑な会話システムの開発、
-NLP、特に対話システムの分野での研究。
-
-link: https://github.com/deepmipt/DeepPavlov
-spacyとの依存関係で無理
-
 
 ### clean-text
 Webやソーシャルメディアでユーザーが作成したコンテンツは、汚いことがよくあります。でスクレイピングされたデータを前処理clean-textして、正規化されたテキスト表現を作成します。
