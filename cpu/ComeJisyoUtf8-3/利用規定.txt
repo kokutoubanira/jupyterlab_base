@@ -1,0 +1,5 @@
+著作権は相良かおるが所有します。
+
+Copyright(C) 2009-2021, Sagara. All rights reserved.
+
+無償で提供される辞書ComeJisyoは、GPL/LGPL/BSD Licenseのトリプルライセンスに従うものとします。
