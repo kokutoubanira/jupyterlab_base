@@ -1,0 +1,8 @@
+nlplot==1.4.0
+pyLDAvis==3.3.1
+nltk==3.4.5
+ginza
+ja_ginza
+spacy==3.1.1
+pydantic==1.7.4
+tqdm

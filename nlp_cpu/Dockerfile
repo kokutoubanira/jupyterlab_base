@@ -1,9 +1,7 @@
-FROM techlab-base-notebookv1.0
+FROM jupyter/datascience-notebook:lab-3.2.9
 
 USER root
 RUN apt-get update
-WORKDIR /
-# mecabの導入
 RUN apt-get -y update && \
   apt-get -y upgrade && \
   apt-get install -y mecab && \
@@ -35,9 +33,17 @@ RUN mv MANBYO_201907_Dic-utf8.dic /dic/MANBYO/MANBYO_201907_Dic-utf8.dic
 RUN pip uninstall -y tqdm
 
 USER 1000
-COPY ./requirements.txt /
-RUN pip install -r /requirements.txt
+RUN pip3 install torch==1.10.0  torchvision==0.11.0 torchaudio==0.10.0 --extra-index-url https://download.pytorch.org/whl/cpu
+COPY ./requirements1.txt / 
+RUN pip install -r /requirements1.txt
+
+COPY /requirements2.txt /
+RUN pip install -r /requirements2.txt
+
+COPY /requirements3.txt /
+RUN pip install -r /requirements3.txt
+
+RUN pip install -U requests
+RUN pip install jaxlib==0.3.10
+
 WORKDIR /home/jovyan
-
-
-
